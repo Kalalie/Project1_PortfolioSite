@@ -1,14 +1,20 @@
 {
-	"folders": [
-		{
-			"path": "../introduction-to-media-queries"
-		},
-		{
-			"path": "../Exercise1_Week1"
-		},
-		{
-			"path": "../Exercise2_Week1"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "../introduction-to-media-queries"
+    },
+    {
+      "path": "../Exercise1_Week1"
+    },
+    {
+      "path": "../Exercise2_Week1"
+    },
+    {
+      "path": "../Itworksonmymachine/plus-perth-2020-works-on-my-machine-react"
+    },
+    {
+      "path": "../Itworksonmymachine"
+    }
+  ],
+  "settings": {}
 }
