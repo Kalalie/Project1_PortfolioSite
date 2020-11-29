@@ -50,7 +50,7 @@ a:hover {
   text-align: center;
 }
 .CTAPosition {
-  position: absolute;
+  position: relative;
   top: 80%;
   left: 60%;
   transform: translate(-50%, -50%);
@@ -63,7 +63,7 @@ a:hover {
 #Container_Top_Page {
   display: flex;
   align-items: center;
-  padding: 30px;
+  padding: 15px;
   justify-content: space-between;
 }
 .Nav_Button {
@@ -83,7 +83,7 @@ a:hover {
   list-style-type: none;
   display: inline;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   color: #ff554d;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -96,23 +96,21 @@ li a {
   color: #07025f;
   text-decoration: none;
 }
-.ContainerImageHeader {
-  position: relative;
+.ContainerImageHeaderHomepage {
   background-image: url(images/ImageCover3.png);
   background-size: cover;
   content: "";
-  display: block;
   width: 100%;
-  height: 65vh;
+  height: 35vw;
 }
-.ContainerImageHeader img {
+.ContainerImageHeaderHomepage img {
   max-width: 60%;
   display: flex;
   justify-content: flex-start;
   padding: 50px;
   transform: translate(-20%, -16%);
 }
-.ContainerImageHeader #TextIntro {
+.ContainerImageHeaderHomepage #TextIntro {
   position: absolute;
   transform: translate(-20%, 5%);
   top: 30%;
@@ -135,30 +133,64 @@ li a {
 }
 
 .right {
-  flex: 2;
+  flex: 1;
   padding: 1rem;
   align-items: center;
-  margin-left: 600px;
-  margin-top: 50px;
+  margin-left: 80%;
+  margin-top: 5%;
 }
 
 .ContainerImageHeader2 {
-  position: relative;
-  background-image: url(images/ImageCover2.png);
+  background-image: url(images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
   background-size: cover;
   content: "";
-  display: block;
   width: 100%;
-  height: 65vh;
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .ContainerImageHeader2 img {
   max-width: 60%;
   display: flex;
   justify-content: flex-start;
-  padding: 50px;
+  padding: 10%;
   transform: translate(-20%, -16%);
 }
 .ContainerImageHeader2 #TextIntro {
+  position: absolute;
+  transform: translate(-20%, 5%);
+  top: 30%;
+  left: 50%;
+  text-align: justify;
+  line-height: 1.5;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  overflow: scroll;
+  font-size: 1rem;
+}
+
+.ContainerImageHeaderStory {
+  background-image: url(images/OpheliePortfolioCover.png);
+  background-size: cover;
+  content: "";
+  width: 100%;
+  height: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContainerImageHeaderStory img {
+  max-width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10%;
+  transform: translate(-20%, -16%);
+}
+.ContainerImageHeaderStory #TextIntro {
   position: absolute;
   transform: translate(-20%, 5%);
   top: 30%;
@@ -206,11 +238,11 @@ li a {
 }
 h1 {
   color: #07025f;
-  padding: 40px;
+  padding: 20px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 1rem;
+  font-weight: 1vw;
 }
-h1:before,
+/* h1:before,
 h1:after {
   content: "";
   width: 250px;
@@ -219,7 +251,7 @@ h1:after {
   background: #07025f;
   display: inline-block;
   vertical-align: middle;
-}
+} */
 h2 {
   color: #ff554d;
 }
@@ -229,8 +261,9 @@ h3 {
   padding: 10px;
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
-  font-size: 4rem;
+  font-size: 4vw;
 }
+
 body {
   text-align: center;
 }
